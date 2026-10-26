@@ -21,3 +21,12 @@ build/
 
 # Editor settings
 .vscode/
+# Ignore uploaded files by default
+uploads/*
+
+# Allow movie poster images
+!uploads/*.jpg
+!uploads/*.jpeg
+!uploads/*.png
+!uploads/*.webp
+!uploads/*.avif
